@@ -49,3 +49,33 @@ li:hover{
     transform:translateY(-8px);
     box-shadow:0 0 20px #5f8cff55;
 }
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: #07111f;
+    border-bottom: 1px solid #243b63;
+}
+
+.logo {
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #d5e2ff;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    color: #7db3ff;
+}
