@@ -39,8 +39,8 @@ li{
     width:300px;
     background:#0b1730;
     border:1px solid #3b4c80;
-    border-radius:20px;
-    padding:30px;
+    border-radius:0px;
+    padding:0px;
     font-size:26px;
     transition:.3s;
 }
